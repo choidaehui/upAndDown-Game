@@ -11,14 +11,20 @@
 <body>
   <section id="wrapper">
     <h1>랜덤숫자 맞추기 게임</h1>
-    <p>(1~100 사이의 숫자를 입력하세요.)</p>
+    <p>(1~100 사이의 숫자 중 하나를 입력하세요.)</p>
   </section>
   <section id="content">
     <form>
-      <input type="text" name="randomNum" id="randomNum" placeholder="숫자입력">
-      <input type="button" value="실행" id="execute">
+      <label id="label">
+        <input type="text" name="randomNum" id="randomNum" placeholder="숫자입력" autocomplete="off" autofocus>
+      </label>
+       <div>
+        <input type="button" value="실행" id="execute" onclick="numCal()">
+        <input type="button" value="다시" id="reset" onclick="window.location.reload()">
+       </div>     
       <input type="text" name="result" id="result" placeholder="결과">
     </form>    
+
   </section>
 
   

@@ -21,7 +21,7 @@ form,#content {
   text-align: center;
   font-size: 2em;
   color: brown;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
   
 }
 
@@ -31,7 +31,18 @@ form,#content {
   height: 50px;
   background-color: rgb(197, 60, 36);
   font-size: 1em;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
+  border: none;
+  border-radius: 10%;
+}
+
+#reset {
+  margin: 0 auto;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(197, 60, 36);
+  font-size: 1em;
+  margin-bottom: 50px;
   border: none;
   border-radius: 10%;
 }
@@ -41,14 +52,23 @@ form,#content {
   height: 50px;
   margin: 0 auto;
   text-align: center;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 ::-webkit-input-placeholder {
-  font-size: 0.7em;
+  font-size: 1.5rem;
   color: darkgray;
 }
 
 input:focus {
   outline: none;
+}
+
+div {
+ margin: 0 auto;
+
+}
+
+#label {
+  margin: 0 auto;
 }
