@@ -1,1 +1,1 @@
-# upAndDown-Game
+# upAndDownGame
