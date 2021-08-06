@@ -1,0 +1,54 @@
+
+#wrapper h1,p {
+  text-align: center;
+  color: rgb(233, 199, 199);
+}
+
+body {
+  background-color: black;
+}
+
+form,#content {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+}
+
+#randomNum {
+  width: 500px;
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2em;
+  color: brown;
+  margin-bottom: 150px;
+  
+}
+
+#execute {
+  margin: 0 auto;
+  width: 100px;
+  height: 50px;
+  background-color: rgb(197, 60, 36);
+  font-size: 1em;
+  margin-bottom: 150px;
+  border: none;
+  border-radius: 10%;
+}
+
+#result {
+  width: 500px;
+  height: 50px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2em;
+}
+
+::-webkit-input-placeholder {
+  font-size: 0.7em;
+  color: darkgray;
+}
+
+input:focus {
+  outline: none;
+}
