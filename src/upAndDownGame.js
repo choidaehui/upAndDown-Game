@@ -3,18 +3,17 @@ const randomNum = Math.floor(Math.random()*100)+1;
 console.log(randomNum);
 let count = 0;
 
-const enterCheck = function(e) {
-  if(e.keyCode == 13){
-      numCal();
-      return false;
+
+function keyCheck(e) {
+  if(e.keyCode == 13 || e.which == 13) {
+    numCal(); 
+    return false; 
   }
 }
 
-document.querySelector('#randomNum').onkeypress = enterCheck;
-
 function numCal() {
-  let inputNum = document.querySelector('#randomNum').value;
-  let result = document.querySelector('#result')
+  const inputNum = document.querySelector('#randomNum').value;
+  const result = document.querySelector('#result');
   
   if (inputNum < 1 || inputNum > 100){
     alert("1부터 100까지 숫자를 입력해주세요.");

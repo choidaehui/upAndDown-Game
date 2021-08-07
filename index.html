@@ -16,7 +16,7 @@
   <section id="content">
     <form>
       <label id="label">
-        <input type="text" name="randomNum" id="randomNum" placeholder="숫자입력" autocomplete="off" autofocus>
+        <input type="text" name="randomNum" id="randomNum" placeholder="숫자입력" autocomplete="off" autofocus onkeypress="keyCheck(event)">
       </label>
        <div>
         <input type="button" value="실행" id="execute" onclick="numCal()">
